@@ -1,0 +1,95 @@
+// SASS style sheet */
+// Palette color codes */
+// Palette URL: http://paletton.com/#uid=10V0u0kcRjB03IA3KZDrE2BWSfP */
+
+// Feel free to copy&paste color codes to your application */
+
+
+// As hex codes */
+// http://paletton.com/#uid=1110u0kllll0sPEaTu7vMczZG3N
+$color-pri0: #AA8739;	// Main Primary color */
+$color-pri1: #FFFEFC;
+$color-pri2: #F0D79E;
+$color-pri3: #644601;
+$color-pri4: #1E1500;
+
+a:link {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(77, 81, 83);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    font-weight: bold;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+// scss-docs-start theme-color-variables: https://huemint.com/bootstrap-basic/
+$primary:       #183b4c;
+$secondary:     #4372a6;
+$success:       #29a75e;
+$info:          #b2c9db;
+$warning:       #e7cb28;
+$danger:        #f41521;
+$light:         #f9e9c3;
+$dark:          #140e10;
+// scss-docs-end theme-color-variables
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,500);
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;    
+}
+
+//https://snippets.wrappixel.com/bootstrap-team-section/
+.team4 {
+  font-family: "Montserrat", sans-serif;
+	color: #8d97ad;
+  font-weight: 300;
+}
+
+.team4 h1, .team4 h2, .team4 h3, .team4 h4, .team4 h5, .team4 h6 {
+  color: #3e4555;
+}
+
+.team4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.team4 h5 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.team4 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+		font-size: 13px;
+}
+
+.team4 ul li a {
+  color: #8d97ad;
+  padding-right: 15px;
+  -webkit-transition: 0.1s ease-in;
+  -o-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+.team4 ul li a:hover {
+  -webkit-transform: translate3d(0px, -5px, 0px);
+  transform: translate3d(0px, -5px, 0px);
+	color: #316ce8;
+}
